@@ -25,3 +25,16 @@ User must fill two cells in Config_File_for_GET.xlsx:
    - Org ID
 
 File "Config_File_for_GET.xlsx" must be in the same folder as the sript
+
+Each sheet in report file will be named by Network Name.
+Following SSID info will be in report file based on API responce (if no key - "N/A" will be added) for each SSID on each network:
+['name'])
+['enabled']
+['number'])
+['authMode']
+['encryptionMode']
+['wpaEncryptionMode']
+['ipAssignmentMode']
+['defaultVlanId']
+['minBitrate']
+['visible']
