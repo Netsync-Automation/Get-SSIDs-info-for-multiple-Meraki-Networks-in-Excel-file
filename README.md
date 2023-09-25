@@ -28,9 +28,9 @@ File "Config_File_for_GET.xlsx" must be in the same folder as the sript
 
 Each sheet in report file will be named by Network Name.
 Following SSID info will be in report file based on API responce (if no key - "N/A" will be added) for each SSID on each network:
-['name'])
+['name']
 ['enabled']
-['number'])
+['number']
 ['authMode']
 ['encryptionMode']
 ['wpaEncryptionMode']
